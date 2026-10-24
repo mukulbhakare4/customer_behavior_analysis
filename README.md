@@ -1,5 +1,4 @@
-## 👨🏻‍💻Customer Behavior Data Analyst Portfolio Project
-
+# 👨🏻‍💻Customer Behavior Data Analyst Portfolio Project
 This project represents a complete, industry standard, end-to-end data analytics workflow, designed to mirror the real responsibilities of professional analysts in modern business environments. The project encompasses all critical stages of data analysis, from data preparation and modeling to insight generation, visualization, and reporting.
 
 This project is perfect for:
@@ -9,173 +8,65 @@ This project is perfect for:
 
 
 ## 📌 Project Overview
+The goal of this project is to simulate a corporate-grade end-to-end data analytics workflow, demonstrating the ability to translate raw data into strategic business intelligence by:
 
-This project demonstrates an end-to-end data analytics workflow, from loading and cleaning raw data to generating business insights and presenting results through an interactive Power BI dashboard.
+✅ Data Preparation,Modeling & Exploratory Data Analysis (Python): Clean and transform the raw dataset for analysis.
 
-The project uses Python for data cleaning and Exploratory Data Analysis (EDA), SQL for querying and analyzing data, Power BI for dashboard development, and Gamma for creating a professional presentation.
+✅ Data Analysis (SQL): Simulate business transactions, and run queries to extract insights on customer segments, loyalty, and purchase drivers.
 
-**Objective:** Transform raw data into meaningful insights that support data-driven business decisions.
+✅ Visualization & Insights (Power BI): Build an interactive dashboard that highlights key patterns and trends, enabling stakeholders to make data-driven decisions.
 
-## 📂 Dataset
+✅ Report and Presentation: Write a clear project report summarizing your key findings and business recommendations. Prepare a presentation that visually communicates insights and actionable recommendations to stakeholders.
 
-The project uses a structured dataset containing information relevant to the selected business problem.
+![Project Workflow](https://github.com/user-attachments/assets/8bbd5dc9-eb6c-40c1-8f19-c08b4107f654)
 
-- **Source:** [Add dataset source or download link]
-- **Format:** CSV / Excel
-- **Purpose:** Analyze data patterns, identify trends, and uncover actionable insights.
+## 🛠️ How to Use This Project
 
-*Note: Update this section with the actual dataset description, size, and important columns.*
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/amlanmohanty1/customer-trends-data-analysis-SQL-Python-PowerBI.git
+   cd customer-trends-data-analysis-SQL-Python-PowerBI
+   ```
+2. **Open Customer_Shopping_Behavior_Analysis.ipynb notebook**
 
-## 🛠️ Tools & Technologies
+    This file contains:
 
-- **Python:** Data processing, cleaning, and analysis
-- **Pandas & NumPy:** Data manipulation and transformation
-- **Matplotlib & Seaborn:** Data visualization and EDA
-- **SQL:** Data querying, aggregation, joins, CTEs, and window functions
-- **PostgreSQL / MySQL / SQL Server:** Relational database management and analysis
-- **Power BI:** Interactive dashboards and business reporting
-- **Gamma:** Presentation and report creation
-- **GitHub:** Project documentation and version control
+      - Data Import
 
-## 🔄 Project Steps
+      - Data exploration
 
-### 1. Data Loading
-- Imported the raw dataset into Python using Pandas.
-- Inspected the dataset structure, dimensions, and data types.
+      - Data cleaning
 
-### 2. Exploratory Data Analysis (EDA)
-- Analyzed data distributions and summary statistics.
-- Identified trends, patterns, and relationships.
-- Used charts and visualizations to explore key variables.
+      - Connection to SQL Database
+  
+3. **Load the data from Python notebook into MySQL/PostgreSQL/MS SQL Server**
 
-### 3. Data Cleaning and Preparation
-- Handled missing and duplicate values.
-- Corrected data types and inconsistent formats.
-- Validated data quality and prepared the dataset for analysis.
+      - Create a database in SQL
 
-### 4. SQL Analysis
-- Loaded the cleaned data into a relational database.
-- Wrote SQL queries to extract meaningful business insights.
-- Used filtering, joins, aggregations, subqueries, CTEs, and window functions where appropriate.
-- Analyzed trends and key performance indicators (KPIs).
+      - Run Python code to load data into SQL database
+  
+      - Open **customer_behavior_sql_queries.sql**
+  
+      - Answer Business Questions using SQL Queries 
+      
+4. **Connect the SQL Database to Power BI**
 
-### 5. Power BI Dashboard
-- Connected Power BI to the analyzed dataset.
-- Created interactive charts, KPI cards, slicers, and tables.
-- Designed a user-friendly dashboard to communicate important findings.
+      - Open **customer_behavior_dashboard.pbix**
+   
+      - Create interactive dashboard in Power BI
+  
+6. **Create Project Report and Presentation**
 
-### 6. Report and Presentation
-- Summarized the methodology, analysis, and key findings in a report.
-- Used Gamma to create a professional presentation highlighting insights and recommendations.
+      - Create project report
+   
+      - Build presentation deck using Gamma AI
 
-## 📊 Dashboard
 
-The Power BI dashboard provides a visual summary of the analysis.
 
-**Key features may include:**
-- KPI cards for important business metrics
-- Category-wise and segment-wise comparisons
-- Trend analysis
-- Interactive filters and slicers
-- Data-driven insights and recommendations
+## 👨‍💻 About the Author
+Hey, I’m Mukul Bhakare, a Data Analyst.
+I break down complex data topics into simple, practical content that actually helps you land a job.
 
-## 📈 Results & Key Insights
-
-The analysis aims to identify meaningful patterns, trends, and opportunities within the dataset.
-
-Key findings will be documented after completing the analysis, including:
-
-- Important trends and performance indicators
-- Significant patterns across categories or segments
-- Potential business opportunities
-- Actionable recommendations based on the results
-
-*Replace this section with actual findings and quantified results from your project.*
-
-## 📁 Project Structure
-
-```text
-data-analytics-project/
-│
-├── data/
-│   └── dataset.csv
-│
-├── notebooks/
-│   └── exploratory_data_analysis.ipynb
-│
-├── sql/
-│   └── analysis_queries.sql
-│
-├── powerbi/
-│   └── dashboard.pbix
-│
-├── reports/
-│   └── analysis_report.pdf
-│
-├── presentation/
-│   └── project_presentation.pdf
-│
-├── images/
-│   └── dashboard.png
-│
-├── requirements.txt
-└── README.md
-```
-
-## ⚙️ How to Run the Project
-
-### Prerequisites
-- Python 3.x
-- Jupyter Notebook
-- PostgreSQL, MySQL, or SQL Server
-- Power BI Desktop
-- Required Python libraries
-
-### Step 1: Clone the Repository
-
-```bash
-git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
-cd YOUR-REPOSITORY
-```
-
-### Step 2: Install Dependencies
-
-```bash
-python -m pip install -r requirements.txt
-```
-
-### Step 3: Load and Analyze the Dataset
-
-- Open the Jupyter Notebook in the `notebooks/` folder.
-- Update the dataset path if necessary.
-- Run the notebook cells to perform data cleaning and EDA.
-
-### Step 4: Run SQL Queries
-
-- Create a database in your preferred SQL system.
-- Import the cleaned dataset into the database.
-- Update database connection details as required.
-- Execute the queries in the `sql/` folder.
-
-### Step 5: Open the Power BI Dashboard
-
-- Open the `.pbix` file in Power BI Desktop.
-- Update the data source connection if necessary.
-- Refresh the data to view the dashboard.
-
-### Step 6: Review the Report and Presentation
-
-Open the files in the `reports/` and `presentation/` folders to review the project findings and recommendations.
-
-## 🎯 Skills Demonstrated
-
-- Data cleaning and preprocessing
-- Exploratory Data Analysis (EDA)
-- Python programming and Pandas
-- SQL querying and database management
-- Data visualization and dashboard development
-- Business reporting and insight generation
-- Presentation and communication of analytical findings
 
 ## 👤 Author
 
@@ -185,6 +76,4 @@ Aspiring Data Analyst | Python | SQL | Power BI | Excel
 
 - **GitHub:** [Your GitHub Profile URL]
 
----
-
-*This project was developed for learning and portfolio purposes to demonstrate practical data analytics skills and an end-to-end analytical workflow.*
+## 💡 Thanks for checking out the project! Your support means a lot! Feel free to star ⭐ this repo or share it with someone learning Data Analytics.🚀
